@@ -5,14 +5,14 @@
 # # from transformers import AutoModelForCausalLM, AutoTokenizer, pipelinef
 # from langchain import HuggingFaceHub
 
-# os.environ['HUGGINGFACEHUB_API_TOKEN'] = "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"
+# os.environ['HUGGINGFACEHUB_API_TOKEN'] = ""
 
 # llm = HuggingFaceHub(
 #     repo_id="tiiuae/falcon-7b",
 #     # model_kwargs={"temperature": 0.5, "max_length": 64,"max_new_tokens":512}
 # )
 
-# # os.environ["OPENAI_API_KEY"] = "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"
+# # os.environ["OPENAI_API_KEY"] = ""
 # # os.environ["OLLAMA_HOST"] = "127.0.0.1:50000"
 # # You can choose to use a local model through Ollama for example.
 # #
@@ -225,7 +225,7 @@ print(result)
 # from langchain.callbacks.manager import CallbackManager
 # from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
 
-# os.environ['HUGGINGFACEHUB_API_TOKEN'] = "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"
+# os.environ['HUGGINGFACEHUB_API_TOKEN'] = ""
 
 
 # n_gpu_layers = 1  # Metal set to 1 is enough.
