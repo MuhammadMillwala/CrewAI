@@ -1,7 +1,7 @@
 import os
 from crewai import Agent, Task, Crew
 
-# os.environ["OPENAI_API_KEY"] = "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"
+# os.environ["OPENAI_API_KEY"] = ""
 
 
 # You can choose to use a local model through Ollama for example.
